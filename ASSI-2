@@ -1,0 +1,101 @@
+# Arithmetic Operators:
+# Arithmetic operators perform mathematical calculations.
+# Addition
+a = 5 + 3
+print(a)  
+
+# Subtraction
+b = 10 - 4
+print(b)  
+
+# Multiplication
+c = 2 * 6
+print(c)  
+
+# Division
+d = 15 / 3
+print(d)  
+
+# Modulo (Remainder)
+e = 16 % 5
+print(e)  
+
+# Exponent
+f = 2 ** 4
+print(f)  
+# Assignment Operators:
+# Assignment operators are used to assign values to variables.
+# Simple assignment
+x = 10
+
+# Add and assign
+x += 5  
+
+# Subtract and assign
+x -= 3  
+
+# Multiply and assign
+x *= 2  
+
+# Divide and assign
+x /= 4 
+
+# Modulo and assign
+x %= 3  
+
+# Exponentiate and assign
+x **= 2  
+# Comparison Operators:
+# Comparison operators compare two values and return a Boolean result.
+# Equal to
+a = 5
+b = 7
+print(a == b)  
+
+# Not equal to
+print(a != b) 
+
+# Greater than
+print(a > b)  
+
+# Less than
+print(a < b)  
+
+# Greater than or equal to
+print(a >= b) 
+
+# Less than or equal to
+print(a <= b) 
+# Logical Operators:
+# Logical operators perform logical operations on Boolean values.
+# Logical AND
+a = True
+b = False
+print(a and b)  
+
+# Logical OR
+print(a or b)  
+
+# Logical NOT
+print(not a)  
+# Bitwise Operators:
+# Bitwise operators perform operations on individual bits of integers.
+# Bitwise AND
+a = 0b1010  
+b = 0b1100  
+print(bin(a & b)) 
+
+# Bitwise OR
+print(bin(a | b)) 
+
+# Bitwise XOR
+print(bin(a ^ b))  
+
+# Bitwise NOT
+print(bin(~a))  
+
+# Left shift
+print(bin(a << 2)) 
+
+# Right shift
+print(bin(b >> 2))  
